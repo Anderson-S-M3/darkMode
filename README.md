@@ -10,7 +10,7 @@
 
 <h5 align="center">:rotating_light: Finalizado... :rotating_light:</h5>
 
-<p align="center"><a href="#instalacao">Usar</a> • <a href="#tecnologias">Tecnologias</a> • <a href="#demonstracao">Código</a></p>
+<p align="center"><a href="#instalacao">Usar</a> • <a href="#demonstracao">Código</a></p>
 
 <img src="https://user-images.githubusercontent.com/65872811/106670643-12ca3280-658c-11eb-8ac8-19763f2a5512.gif">
 
@@ -30,11 +30,6 @@ cd darkMode
 
 # Execute o index.html dando dois cliques
 ```
-
-<h2 id="tecnologias">🛠 Tecnologias</h2>
-<p>As seguintes ferramentas foram usadas na construção do projeto:</p>
-
-- [Vanilla](https://micku7zu.github.io/vanilla-tilt.js/)
 
 <h2 id="demonstracao">:eyes: Código :eyes:</h2>
 
