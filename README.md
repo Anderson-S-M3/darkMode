@@ -5,7 +5,7 @@
 <p align="center">:new_moon_with_face: Dark Mode :full_moon_with_face: League of Legends do campeão Leona, desenvolvido para praticar js.</p>
 
 <p align="center">
-<img alt="License" src="https://img.shields.io/badge/license-GNU-blue">
+<img alt="License" src="https://img.shields.io/badge/license-MIT-green">
 </p>
 
 <h5 align="center">:rotating_light: Finalizado... :rotating_light:</h5>
@@ -76,7 +76,7 @@ typeWritter(document.querySelector(".nome-area h1"));
 ## 📝 Licença
 ---
 
-Este projeto esta sobe a licença [GNU](./LICENSE.md).
+Este projeto esta sobe a licença [MIT](./LICENSE.md).
 
 <br>
 <br>
