@@ -1,0 +1,141 @@
+/* Reset */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+}
+
+/* Estilo Geral */
+html {
+  --preto-color: #1d1a1a;
+  --medio: #b79c65;
+  --claro: #f0e6d2;
+}
+
+body {
+  margin: 5em;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.conteudo {
+  border-radius: 15px;
+  padding: 20px;
+  background: var(--claro);
+  overflow: hidden;
+}
+
+.ativo {
+  color: var(--medio) !important;
+  border-bottom: 1px solid #0bc4e2;
+}
+
+/* Toggle */
+input[type="checkbox"] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 52px;
+  height: 27px;
+  background: var(--medio);
+  float: right;
+  border-radius: 100px;
+  position: relative;
+}
+
+label::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  background-color: var(--claro);
+  border-radius: 90px;
+  transition: 0.3s;
+}
+
+input:checked + label {
+  background-color: var(--medio);
+}
+
+input:checked + label::after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+
+label:active:after {
+  width: 45px;
+}
+
+input:checked + label::after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+
+/* Menu */
+.menu ul {
+  display: flex;
+  justify-content: center;
+}
+
+.menu ul li {
+  padding: 10px;
+}
+
+.menu ul li a {
+  padding: 10px;
+  color: var(--preto-color);
+  transition: 0.7s;
+}
+
+.menu ul li a:hover {
+  color: var(--medio);
+  border-bottom: 1px solid #0bc4e2;
+}
+
+/* Texto */
+.texto {
+  display: flex;
+  justify-content: space-between;
+}
+
+.texto-sobre {
+  padding: 20px;
+}
+
+.texto-sobre h2 {
+  font-size: 2em;
+  font-weight: 700;
+  font-style: italic;
+  color: var(--preto-color);
+}
+
+.texto-sobre span {
+  font-size: 0.875em;
+  font-style: italic;
+  color: var(--medio);
+}
+
+.texto-sobre p {
+  line-height: 24px;
+  max-width: 350px;
+  margin: 20px 0px 0px 10px;
+  color: var(--preto-color);
+}
+
+/* img */
+.avatar-img img {
+  position: relative;
+  left: 110px;
+  top: 45px;
+}
